@@ -2,7 +2,7 @@
 - name: "Include os specific variables"
   ansible.builtin.include_vars: "{{ ansible_os_family }}.yml"
 
-- name: "Call custon CA installation tasks"
+- name: "Call custom CA installation tasks"
   include_tasks: install-root-ca.yml
   loop: "{{ custom_ca }}"
 ...
