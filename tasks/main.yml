@@ -4,5 +4,6 @@
 
 - name: "Call custon CA installation tasks"
   include_tasks: install-root-ca.yml
-  loop: custom_ca
+  loop:
+    - custom_ca
 ...
