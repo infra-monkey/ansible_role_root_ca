@@ -1,7 +1,4 @@
 ---
 update_ca_path: "/usr/sbin/update-ca-trust"
 custom_ca_location: "/etc/pki/ca-trust/source/anchors"
-custom_ca_owner: "root"
-custom_ca_group: "ssl-cert"
-custom_ca_mode: "0644"
 ...

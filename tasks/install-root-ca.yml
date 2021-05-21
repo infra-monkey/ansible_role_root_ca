@@ -3,8 +3,8 @@
   ansible.builtin.copy:
     content: "{{ item.content }}"
     dest: "{{ custom_ca_location }}/{{ item.name }}.pem"
-    owner: "{{ custom_ca_owner }}"
-    group: "{{ custom_ca_group }}"
-    mode: "{{ custom_ca_mode }}"
+    owner: "root"
+    group: "root"
+    mode: "0644"
   notify: "Load Root CA"
 ...
