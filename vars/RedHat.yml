@@ -1,4 +1,4 @@
 ---
-update_ca_path: "/usr/sbin/update-ca-trust"
+update_ca_path: "/usr/bin/update-ca-trust"
 custom_ca_location: "/etc/pki/ca-trust/source/anchors"
 ...
