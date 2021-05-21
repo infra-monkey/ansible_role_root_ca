@@ -1,0 +1,5 @@
+---
+- name: "Load Root CA"
+  command: "{{ update_ca_path }}"
+  changed_when: false
+...

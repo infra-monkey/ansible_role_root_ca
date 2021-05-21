@@ -1,0 +1,10 @@
+---
+- name: "Copy Custom Root CA to host"
+  copy:
+    src: "{{ item.content }}"
+    dest: "{{ custom_ca_location }}/{{ item.name }}.pem"
+    owner: "{{ custom_ca_owner }}"
+    group: "{{ custom_ca_group }}"
+    mode: "{{ custom_ca_mode }}"
+  notify: "Load Root CA"
+...
