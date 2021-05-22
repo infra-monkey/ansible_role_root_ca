@@ -12,6 +12,8 @@ This role requires root permissions. It must be called as root. This needs to be
 
 # Example
 
+This is an example of variables injected in a playbook. On the host, it will create a 'root_ca_1.pem' ca file.
+
 ```yaml
   vars:
     custom_ca:
