@@ -2,7 +2,7 @@
 - name: "Copy Custom Root CA to host"
   ansible.builtin.copy:
     content: "{{ item.content }}"
-    dest: "{{ custom_ca_location }}/{{ item.name }}.pem"
+    dest: "{{ custom_ca_location }}/{{ item.name }}.crt"
     owner: "root"
     group: "root"
     mode: "0644"

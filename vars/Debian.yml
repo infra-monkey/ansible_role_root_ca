@@ -1,4 +1,4 @@
 ---
 update_ca_path: "/usr/sbin/update-ca-certificates"
-custom_ca_location: "/etc/ssl/certs/"
+custom_ca_location: "/usr/local/share/ca-certificates"
 ...
