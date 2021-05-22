@@ -12,7 +12,7 @@ This role requires root permissions. It must be called as root. This needs to be
 
 # Example
 
-```
+```yaml
   vars:
     custom_ca:
       - name: "root_ca_1"
