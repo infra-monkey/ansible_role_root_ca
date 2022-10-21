@@ -15,8 +15,8 @@ galaxy_info:
         - "9"
     - name: Debian
       versions:
-        - stretch
-        - buster
-        - bulsseye
+        - "stretch"
+        - "buster"
+        - "bulsseye"
   galaxy_tags: []
 dependencies: []
