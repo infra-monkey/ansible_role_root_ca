@@ -1,8 +1,8 @@
 ---
 - name: Converge
   hosts: all
-  connection: local
-  become: true
+  become: yes
+  gather_facts: yes
   vars:
     custom_ca:
       - name: "root_ca_1"
@@ -55,4 +55,4 @@
           TBj0/VLZjmmx6BEP3ojY+x1J96relc8geMJgEtslQIxq/H5COEBkEveegeGTLg==
           -----END CERTIFICATE-----
   roles:
-    - role: "infra_monkey.root_ca"
+    - role: ansible_role_root_ca
