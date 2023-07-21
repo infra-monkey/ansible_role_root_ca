@@ -1,0 +1,3 @@
+---
+update_ca_path: "/usr/sbin/update-ca-certificates"
+custom_ca_location: "/etc/pki/trust/anchors"

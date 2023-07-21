@@ -18,5 +18,14 @@ galaxy_info:
         - "stretch"
         - "buster"
         - "bullseye"
+    - name: opensuse
+      versions:
+        - "15.3"
+        - "15.4"
+        - "15.5"
+    - name: SLES
+      versions:
+        - "15"
+
   galaxy_tags: []
 dependencies: []
