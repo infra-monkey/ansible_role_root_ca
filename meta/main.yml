@@ -25,8 +25,7 @@ galaxy_info:
         - "15.5"
     - name: SLES
       versions:
-        - "15SP4"
-        - "15SP5"
+        - "15"
 
   galaxy_tags: []
 dependencies: []
